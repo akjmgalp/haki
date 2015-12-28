@@ -1,2 +1,3 @@
 # haki
-Hybrid Inconsistency Management Tool for AngularJS
+HAKI: Hybrid Inconsistency Management Tool for AngularJS
+========================================================
