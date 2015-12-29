@@ -1,7 +1,7 @@
 (function () {
     "use strict";
 
-    var utility = require("../main/utility.js");
+    var utility = require("./../main/utility.js");
     var assert = require("chai").assert;
 
     describe("Utility Tests", function () {

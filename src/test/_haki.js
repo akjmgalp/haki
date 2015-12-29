@@ -1,7 +1,7 @@
 (function () {
     "use strict";
 
-    var haki = require("../main/haki.js");
+    var haki = require("./../main/haki.js");
     var assert = require("chai").assert;
 
     describe("Examples", function () {

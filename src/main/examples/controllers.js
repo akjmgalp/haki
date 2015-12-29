@@ -1,7 +1,7 @@
 (function () {
     "use strict";
 
-    var utility = require("utility.js");
+    var utility = require("./../utility.js");
 
     var addController = function (controllerName, controllerFunction) {
         utility.setProperty(exports, controllerName, controllerFunction);
