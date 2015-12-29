@@ -23,7 +23,9 @@
   "license": "SEE LICENSE IN LICENSE",
   "homepage": "https://github.com/akjmgalp/haki#readme",
   "devDependencies": {
+    "chai": "^3.4.1",
     "jake": "^8.0.12",
+    "mocha": "^2.3.4",
     "semver": "^5.1.0"
   }
 }
