@@ -22,7 +22,7 @@
     
     desc("Runs tests");
     task("test", function () {
-        jake.exec("node node_modules/mocha/bin/mocha src/test/**/*.js", {interactive: true}, complete);
+        jake.exec("node node_modules/mocha/bin/mocha src/test/**/_*.js", {interactive: true}, complete);
     }, {async: true} );
 
 }());

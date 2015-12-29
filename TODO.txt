@@ -1,0 +1,14 @@
+CHALLENGES
+===================================================
+1. Pluralization of angular, {{variable}} +
+2. Routing of angular, ng-controller
+3. Special directives: ng-repeat, ng-class, ng-click
+4. Recursive evaluation functions, utility +
+5. Accessing all of the html content of the project
+
+NOTES:
+1. Helper yerine handler veya preprocessor kullan.
+2. Ng-repeat içindeki "in" den sonrasını eval et, ilk değişkeni ignore et.
+3. Handler'lar için (Pluralization için özellikle) report verebilmek adına nerede olduğu bilinmeli.
+4. Ng-click için function name ve parameterlar evaluate edilecek, function invoke edilmeyecek.
+5. Uygulama gibi yapıp, kullanıcı html dosyalarını seçecek, sonra çalışıp rapor alacak.
