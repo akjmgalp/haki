@@ -1,4 +1,3 @@
-# haki
 HAKI: Hybrid Inconsistency Management Tool for AngularJS
 ========================================================
 
@@ -18,10 +17,16 @@ Haki uses both static and dynamic analysis of the source code so it is called an
 To try the code on your computer:
 ---------------------------------
 
-1. Install [Node.js](http://nodejs.org).
+1. Install [Node.js v5.3.0](http://nodejs.org).
 2. Install [Git](http://git-scm.com).
 3. Open a command prompt.
 4. Change to the directory that will contain the project.
 5. Copy the source repository to your computer: 'git clone https://github.com/akjmgalp/haki.git'
 
-To run the build, type: 'node build.js'.
+To run the build:
+-----------------
+
+1. Install jake: 'npm install jake --ignore-scripts --save-dev'
+2. Run jake: 'jake'
+
+Please note that this is a progressing study while you evaluating haki.
