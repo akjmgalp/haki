@@ -1,10 +1,12 @@
+/* globals jake:false, desc:false, task:false, complete:false, fail:false */
+
 (function () {
     "use strict";
 
     var semver = require("semver");
 
     desc("Default task");
-    task("default", ["version"], function () {
+    task("default", ["version", "test"], function () {
         console.log("\n\nBUILD OK");
     });
     
@@ -17,5 +19,10 @@
             fail("Incorrect node version: expected " + expectedVersion + ", but was " + actualVersion);
         }
     });
+    
+    desc("Runs tests");
+    task("test", function () {
+        jake.exec("node node_modules/mocha/bin/mocha src/test/**/*.js", {interactive: true}, complete);
+    }, {async: true} );
 
 }());

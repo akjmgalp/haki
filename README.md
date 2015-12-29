@@ -26,6 +26,11 @@ To try the code on your computer:
 To run the build:
 -----------------
 
-1. Type 'jake' in your command prompt to run jake.
+1. Type 'jake' in your command prompt.
+
+To run the tests:
+-----------------
+
+1. Type 'jake test' in your command prompt.
 
 Please note that this is a progressing study while you evaluating haki.
