@@ -1,5 +1,9 @@
 (function () {
     "use strict";
 
-    console.log("\n\nBUILD OK");
+    desc("Default Task");
+    task("default", function () {
+        console.log("\n\nBUILD OK");
+    });
+
 }());
