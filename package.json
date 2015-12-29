@@ -11,9 +11,15 @@
     "url": "git+https://github.com/akjmgalp/haki.git"
   },
   "keywords": [
-    "angularjs", "inconsistency", "linting", "analysis"
+    "angularjs",
+    "inconsistency",
+    "linting",
+    "analysis"
   ],
   "author": "İbrahim Bilge <ibrahimbilge7@gmail.com> (http://ibrahimbilge.com)",
   "license": "SEE LICENSE IN LICENSE",
-  "homepage": "https://github.com/akjmgalp/haki#readme"
+  "homepage": "https://github.com/akjmgalp/haki#readme",
+  "devDependencies": {
+    "jake": "^8.0.12"
+  }
 }
