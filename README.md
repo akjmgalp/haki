@@ -1,6 +1,7 @@
-HAKI: Hybrid Inconsistency Management Tool for AngularJS
+Hybrid Inconsistency Management Tool for AngularJS
 ========================================================
-
+HAKI
+====
 This is the source code for the Haki, the tool for Inconsistency Management of AngularJS projects. It is developed by Ibrahim Bilge for his MSc thesis.
 For more information please visit [Thesis Page](http://www.kodrehberi.com/haki).
 
@@ -26,7 +27,6 @@ To try the code on your computer:
 To run the build:
 -----------------
 
-1. Install jake: 'npm install jake --ignore-scripts --save-dev'
-2. Run jake: 'jake'
+1. Type 'jake' in your command prompt to run jake.
 
 Please note that this is a progressing study while you evaluating haki.
