@@ -23,8 +23,8 @@
 
             log("Searching the controller: " + controllerElement.attr("ng-controller"), 0, 10);
 
-            for (var j = 0; j < testAttributes.length; j++) {
-                var attributeToAnalyze = testAttributes[j].name;
+            for (var j = 0; j < attributes.list.length; j++) {
+                var attributeToAnalyze = attributes.list[j].name;
                 var elementListToAnalyze = controllerElement.find("[" + attributeToAnalyze + "]");
 
                 var elementToAnalyze;

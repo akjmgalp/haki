@@ -12,3 +12,7 @@ NOTES:
 3. Handler'lar için (Pluralization için özellikle) report verebilmek adına nerede olduğu bilinmeli.
 4. Ng-click için function name ve parameterlar evaluate edilecek, function invoke edilmeyecek.
 5. Uygulama gibi yapıp, kullanıcı html dosyalarını seçecek, sonra çalışıp rapor alacak.
+
+TODOS:
+1. Parse işlemine çözüm bulunmalı, $parse yerine vanilla bir servis yazılabilir.
+2. Html okuma işlemi gerçekleştirilmeli, verilen pathdeki tüm file'lar okunacak.
