@@ -1,7 +1,6 @@
-Hybrid Inconsistency Management Tool for AngularJS
-========================================================
-HAKI
-====
+Hybrid Inconsistency Management Tool for AngularJS : HAKI
+=========================================================
+
 This is the source code for the Haki, the tool for Inconsistency Management of AngularJS projects. It is developed by Ibrahim Bilge for his MSc thesis.
 For more information please visit [Thesis Page](http://www.kodrehberi.com/haki).
 
