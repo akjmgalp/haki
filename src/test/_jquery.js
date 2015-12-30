@@ -2,8 +2,7 @@
     "use strict";
 
     var $ = require('jquery');
-    var http = require('http');
-    var env = require('node-jsdom').env;
+    //var env = require('node-jsdom').env;
 
     //describe("Jquery Tests", function () {
     //
