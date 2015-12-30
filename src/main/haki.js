@@ -4,7 +4,7 @@
     var $ = require('jquery');
     var utility = require("./utility.js");
     var controllers = require("./examples/controllers.js");
-    var attributes = require("./examples/attributes.js");
+    var attributes = require("./resources/attributes.js");
 
     var log = function(str, left, top) {
         console.info("<label class='log' style='margin-left: " + left + "px; margin-top: " + top + "px;'>" + str + "</label>");

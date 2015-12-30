@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Template Html Example</title>
+</head>
+<body>
+
+    <div ng-controller="testController0">
+        <label ng-bind="user.name"></label>
+
+        <div ng-controller="testControllerA">
+            <input ng-model="level.number"></input>
+
+
+            <div ng-controller="testControllerAA">
+                <label ng-bind="level.number"></label>
+            </div>
+
+            <div ng-controller="testControllerAB">
+                <label ng-bind="user.name" ng-show="level.number > 5"></label>
+            </div>
+        </div>
+
+        <div ng-controller="testControllerB">
+            <label ng-bind="user.name"></label>
+
+            <div ng-controller="testControllerBA">
+                <label ng-bind="user.neme"></label>
+
+                <div ng-controller="testControllerBAA">
+                    <label ng-bind="user.name"></label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
