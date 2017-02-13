@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/akjmgalp/haki.git"
+    "url": "git+https://github.com/thebilge/haki.git"
   },
   "keywords": [
     "angularjs",
@@ -21,7 +21,7 @@
   ],
   "author": "İbrahim Bilge <ibrahimbilge7@gmail.com> (http://ibrahimbilge.com)",
   "license": "SEE LICENSE IN LICENSE",
-  "homepage": "https://github.com/akjmgalp/haki#readme",
+  "homepage": "https://github.com/thebilge/haki#readme",
   "devDependencies": {
     "chai": "^3.4.1",
     "jake": "^8.0.12",
